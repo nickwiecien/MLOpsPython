@@ -23,6 +23,9 @@ resources:
         include:
         - master
 
+pool:
+  vmImage: 'ubuntu-latest'
+  
 variables:
 - template: diabetes_regression-variables-template.yml
 - group: devopsforai-aml-vg

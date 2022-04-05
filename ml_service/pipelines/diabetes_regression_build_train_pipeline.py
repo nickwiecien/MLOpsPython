@@ -12,7 +12,7 @@ import os
 
 def main():
     e = Env()
-    # Get Azure machine learning workspace
+    # Get Azure Machine Learning workspace
     aml_workspace = Workspace.get(
         name=e.workspace_name,
         subscription_id=e.subscription_id,
